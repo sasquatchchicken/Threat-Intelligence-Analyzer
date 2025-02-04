@@ -64,4 +64,17 @@ Returns a detailed classification of the data
 
   ```bash
   pip install requests
-  
+  ```
+
+**EXAMPLE USAGE AND OUTPUT**
+
+  ```bash
+  Enter the Base64-encoded string: nG/JCRYUiXrodZd+1v4hWw==
+  Decoded Length: 16 bytes
+  Decoded Hex: 9c6fc9091614897ae875977ed6fe215b
+  Data Type Analysis: Possibly an AES-128 Key, AES IV, BLAKE2s-128, UUID, or IPv6 Address
+  Entropy Score: 4.0000 (Higher entropy suggests encrypted data)
+  Checking VirusTotal for SHA-256 Hash: 267a36c59037b2786196b7acae36402f84a42a89dab629753412c0ec49874dcf
+  Hash Not Found in VirusTotal
+  ```
+
