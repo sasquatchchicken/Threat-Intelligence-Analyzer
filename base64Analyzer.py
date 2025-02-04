@@ -20,7 +20,7 @@ def analyze_length(byte_length):
         6: "Possibly a MAC Address",
         8: "Possibly a DES Encryption Key",
         12: "Possibly an AES-GCM Nonce or ChaCha20 Nonce",
-        16: "Possibly an AES-128 Key, AES IV, BLAKE2s-128, UUID, or IPv6 Address",
+        16: "Possibly an AES-128 Key, AES IV, BLAKE2s-128, MD5, UUID, or IPv6 Address",
         20: "Possibly SHA-1, HMAC-SHA1, or DSA-1024 q value",
         24: "Possibly AES-192 Key, Tiger Hash, or Triple DES",
         28: "Possibly SHA-224 or SHA3-224 Hash",
